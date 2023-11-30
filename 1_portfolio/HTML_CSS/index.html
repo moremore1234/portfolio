@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyProfile</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Kazuki Asahinaです。趣味のカメラで撮影した写真を載せています。">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <!-- ここからGoogle Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+　　　<!--google fontsここまで-->
+　　　<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="wrap">
+    <!-- ヘッダー -->
+    <header>
+        <nav class="header">
+            <div class="myprofile">
+                <a href="index.html" class="home">MyProfile</a>
+            </div>
+            
+            <div class="menu">
+                <a href=#about>About</a>
+                <a href=#works>Works</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section>
+               <img src="../images/MainVisual (1).png">
+            </section>
+            
+            <!-- About -->
+            <h1 id="heading">About</h1>
+            
+            <!-- Kazuki Asahina -->
+            <section class="about">
+                <img src="../images/about.png" class="circle">
+                <div class="content">
+                    <p class="name">Kazuki Asahina</p>
+                        <ul class="introduction">
+                            <li>25歳 長野県佐久市出身</li>
+                            <li>ソフトウェア業界でマーケティングに従事</li>
+                            <li>趣味はカメラ、愛機はCanon</li>
+                            <li>自然を撮影するのが好きで、海や山によく行く</li>
+                        </ul> 
+                </div>          
+            </section>
+
+            <!-- Works -->
+                <h1 id="works" align="center">Works</h1>
+                <!-- 日本海 -->
+                <section class="works">
+                    <div class="item">
+                        <img src="../images/works1.png" width="280" height="209">
+                        <p>新潟に訪れた際に、日本海の雄大さに魅了されて撮影した１枚</p>
+                    </div>
+                    
+                    <!-- 御嶽山 -->
+                    <div class="item_center">
+                        <img src="../images/works2.png" width="280" height="209">
+                        <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+                    </div>
+
+                    <!-- 京都 -->
+                    <div class="item">
+                        <img src="../images/works3.png" width="280" height="209">
+                        <p>京都で撮影した、明け方の古き良き日本の街並み</p>
+                    </div>
+                </section>
+        </article>
+    </main>
+    <footer>
+        <p align="center">&copy; Myprofile. All rights served.</p>
+    </footer>
+    </div>
+</body>
+</html>
